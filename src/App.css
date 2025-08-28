@@ -1,0 +1,85 @@
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #2563eb;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #1d4ed8;
+}
+
+.list h2 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.empty {
+  color: #777;
+  font-style: italic;
+}
+
+.expense-item {
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.expense-item p {
+  margin: 2px 0;
+}
+
+.expense-item b {
+  font-size: 16px;
+  color: #111;
+}
+
+.expense-item .date {
+  font-size: 13px;
+  color: #666;
+}
+
+.expense-item .amount {
+  font-weight: bold;
+  font-size: 18px;
+  color: green;
+}
